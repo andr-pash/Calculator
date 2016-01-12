@@ -1,0 +1,147 @@
+html {
+    background: color: rgba( 233, 215, 199, 0.769);
+    min-height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+body {
+    background-color: gray;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.calcbutton:active {
+    box-shadow: inset 0px 0px 7px #000;
+}
+.calcshell {
+    min-height: 400px;
+    min-width: 300px;
+    width: 20em;
+    height: 30em;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.container {
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+.screen {
+    min-width: 15em;
+    min-height: 5em;
+    width: auto;
+    margin: 0.3em 0.1em 0.2em 0.1em;
+    height: auto;
+    background-color: darkgray;
+    margin-bottom: 0.2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.shell {
+    margin: 0 auto 0 auto;
+    width: 20em;
+    min-height: 30em;
+    height: 100%;
+    background-color: gainsboro;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 0 6px #000;
+}
+.scr {
+    /*   position:absolute;*/
+    height: 25%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: inset 0 0 15px #000;
+}
+.innerbound {
+    display: inline-block;
+    margin: 5% 2.5% 2.5% 2.5%;
+    padding: 0;
+    border: 0;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+}
+header {
+    background: rgba(0, 0, 0, 0.3);
+    color: gainsboro;
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 1em 0 1em 0;
+    box-shadow: 0 0 3em #000;
+}
+.scrtext {
+    text-align: right;
+    vertical-align: bottom;
+    /*    position: absolute;*/
+    width: 100%;
+    height: 100%;
+    bottom: 0.5em;
+    right: 0.5em;
+    font-weight: 400;
+    font-size: 250%;
+    overflow: hidden;
+    display: block;
+    line-height: 120px;
+}
+.btn {
+    height: 100%;
+    line-height: 60px;
+    width: 25%;
+    display: inline-block;
+    background-color: #aab1c5;
+    margin: 0;
+    float: left;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: inset 0 0 2px #000;
+    
+}
+.btn-equal {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    background-color: #61e97f
+}
+.border {
+    border-style: solid;
+    border-color: #424141;
+    box-sizing: border-box;
+    border-width: 1px;
+}
+.row {
+    height: 14.5%;
+    width: 100%;
+}
+
+.btn:active{
+    box-shadow:inset 0 0 10px #000;
+}
+
+.btn-equal {
+    text-align: center;
+    line-height: 60px;
+    font-size: 23px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 2px #000; 
+}
+
+.btn-equal:active {
+    box-shadow:inset 0 0 10px #000;    
+}
+
+#ac {
+    background-color: #fa9d32
+}
